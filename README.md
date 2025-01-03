@@ -52,18 +52,10 @@
 🎯 带应用商店的固件：`x86Lite`
 |           支持的设备        |         固类别         |        Action         |            状态          |              下载页          |
 | :------------------------: | :---------------------: | :-------------------: | :-------------------: | :--------------------------: |
-|             x86_64                    |  [LEDE](https://github.com/coolsnowwolf/lede) |[🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/x86_64.yml) | ![x86_64](https://github.com/bigbugcc/openwrts/actions/workflows/x86_64.yml/badge.svg) |  [✔](https://github.com/bigbugcc/OpenWrts/releases) |
 | x86_64Lite | [LEDE](https://github.com/coolsnowwolf/lede) |[🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/x86_64Lite.yml) | ![x86_64Lite](https://github.com/bigbugcc/openwrts/actions/workflows/x86_64Lite.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             树莓派 3B/3B+             | [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/RaspberryPi3.yml) | ![RaspberryPi3](https://github.com/bigbugcc/openwrts/actions/workflows/RaspberryPi3.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             树莓派 4B             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/RaspberryPi4.yml) | ![RaspberryPi4](https://github.com/bigbugcc/openwrts/actions/workflows/RaspberryPi4.yml/badge.svg) |  [✔](https://github.com/bigbugcc/OpenWrts/releases) |
 |             树莓派 5             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/RaspberryPi5.yml) | ![RaspberryPi5](https://github.com/bigbugcc/openwrts/actions/workflows/RaspberryPi5.yml/badge.svg) |  [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             NanoPi R2S             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip.yml) | ![R2S](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
 |             NanoPi R4S             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip.yml) | ![R4S](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
 |             NanoPi R5C             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip.yml) | ![R5C](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             NanoPi R5S             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip.yml) | ![R5S](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             FastRhino R68S             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip.yml) | ![R68S](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-|             Orange Pi R1 Plus             |  [LEDE](https://github.com/coolsnowwolf/lede) | [🍕](https://github.com/bigbugcc/OpenWrts/actions/workflows/Rockchip.yml) | ![OrangePiR1](https://github.com/bigbugcc/openwrts/actions/workflows/Rockchip.yml/badge.svg) | [✔](https://github.com/bigbugcc/OpenWrts/releases) |
-
 <br>
 
 ### 🎯固件默认设置
@@ -74,7 +66,7 @@
 <br>
 
 ## 固件特性
-⏰ 固件编译改为`周更`(稳定为主，减少资源浪费)
+⏰ ~~固件编译改为`周更`(稳定为主，减少资源浪费)~~
 
 ✨ iStore应用商店 [AppStore](./assets/images/appstore.png)
 
@@ -101,29 +93,29 @@
 ## 自带插件
 🍕 默认插件
 - PassWall2 / SSR Plus / OpenClash
-- AdGuard Home
-- Mentohust
+- ~~AdGuard Home~~
+- ~~Mentohust~~
 - ~~luci-app-vssr~~
-- luci-adbyby-plus
-- luci-app-unblockmusic
+- ~~luci-adbyby-plus~~
+- ~~luci-app-unblockmusic~~
 - luci-app-ddns
-- luci-app-pushbot (全能推送)
-- luci-app-onliner
+- ~~luci-app-pushbot (全能推送)~~
+- ~~luci-app-onliner~~
 - luci-app-ttyd
 - luci-app-turboacc
-- luci-app-upnp
+- ~~luci-app-upnp~~
 - luci-app-netdata
 - luci-usb-printer
-- luci-app-nps
+- ~~luci-app-nps~~
 - luci-app-frpc
-- luci-app-n2n
-- luci-app-syncdial (多播插件)
+- ~~luci-app-n2n~~
+- ~~luci-app-syncdial (多播插件)~~
 - luci-app-turboacc
 - luci-app-kms
 - luci-app-docker
 - luci-app-serverchan
-- luci-app-control-timewol (定时wol唤醒)
-- luci-app-aliyundrive-webdav (阿里云盘)
+- ~~luci-app-control-timewol (定时wol唤醒)~~
+- ~~luci-app-aliyundrive-webdav (阿里云盘)~~
 - luci-app-filebrowser
 - luci-app-nfs   
 ......
